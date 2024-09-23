@@ -4,9 +4,9 @@ SECRET_KEY = "django-insecure-test-key"
 DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
-INSTALLED_APPS = [] + djp.installed_apps()
+INSTALLED_APPS = []
 
-MIDDLEWARE = djp.middleware([])
+MIDDLEWARE = []
 
 ROOT_URLCONF = "tests.test_project.urls"
 
