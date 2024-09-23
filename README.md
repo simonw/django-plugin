@@ -1,7 +1,9 @@
 # django-plugin cookiecutter template
 
 A cookiecutter template for creating new [DJP Django Plugins](https://djp.readthedocs.io/).
-`
+
+Here's [how to use this template](https://djp.readthedocs.io/en/latest/creating_a_plugin.html#using-cookiecutter) to create a plugin.
+
 ## Installation
 
 You'll need to have [cookiecutter](https://cookiecutter.readthedocs.io/) installed. I recommend pipx for this:
