@@ -1,5 +1,6 @@
 import djp
 
+
 @djp.hookimpl
 def installed_apps():
     # A list of app strings to add to INSTALLED_APPS:
