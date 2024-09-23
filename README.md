@@ -1,6 +1,6 @@
 # django-plugin cookiecutter template
 
-A cookiecutter template for creating new [django plugins](https://github.com/simonw/djp).
+A cookiecutter template for creating new [DJP Django Plugins](https://github.com/simonw/djp).
 `
 ## Installation
 
