@@ -9,7 +9,9 @@
 
 ## Installation
 
-Install this plugin in the same environment as your Django application.
+First configure your Django project [to use DJP](https://djp.readthedocs.io/en/latest/installing_plugins.html).
+
+Then install this plugin in the same environment as your Django application.
 ```bash
 pip install {{ cookiecutter.hyphenated }}
 ```
