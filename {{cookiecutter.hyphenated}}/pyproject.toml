@@ -19,7 +19,7 @@ Changelog = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutt
 Issues = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.hyphenated }}/issues"
 CI = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.hyphenated }}/actions"
 {% endif %}
-[project.entry-points.django_plugins]
+[project.entry-points.djp]
 {{ cookiecutter.underscored }} = "{{ cookiecutter.underscored }}"
 
 [project.optional-dependencies]
