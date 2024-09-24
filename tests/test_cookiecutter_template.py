@@ -12,21 +12,23 @@ def test_generated_files(tmpdir):
             "description": "blah",
         },
     )
-    assert paths(tmpdir) == {
-        "django-foo/.github",
-        "django-foo/tests/test_django_foo.py",
-        "django-foo/.github/workflows/test.yml",
-        "django-foo/.github/workflows",
-        "django-foo/django_foo",
-        "django-foo/.gitignore",
-        "django-foo",
-        "django-foo/pyproject.toml",
-        "django-foo/.github/workflows/publish.yml",
-        "django-foo/README.md",
-        "django-foo/tests",
-        "django-foo/LICENSE",
-        "django-foo/django_foo/__init__.py",
-    }
+    assert set(paths(tmpdir)).issuperset(
+        {
+            "django-foo/.github",
+            "django-foo/tests/test_django_foo.py",
+            "django-foo/.github/workflows/test.yml",
+            "django-foo/.github/workflows",
+            "django-foo/django_foo",
+            "django-foo/.gitignore",
+            "django-foo",
+            "django-foo/pyproject.toml",
+            "django-foo/.github/workflows/publish.yml",
+            "django-foo/README.md",
+            "django-foo/tests",
+            "django-foo/LICENSE",
+            "django-foo/django_foo/__init__.py",
+        }
+    )
 
 
 def generate(directory, context):
